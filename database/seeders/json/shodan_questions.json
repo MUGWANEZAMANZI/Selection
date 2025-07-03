@@ -1,0 +1,124 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is Shodan primarily used for?",
+      "options": [
+        "Social media monitoring",
+        "Finding vulnerable Internet-connected devices",
+        "Website development",
+        "Email marketing"
+      ],
+      "correct_answer": "Finding vulnerable Internet-connected devices",
+      "explanation": "Shodan is a search engine that lets users find specific types of internet-connected devices and systems using a variety of filters."
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is a valid Shodan filter?",
+      "options": [
+        "site:",
+        "filetype:",
+        "port:",
+        "link:"
+      ],
+      "correct_answer": "port:",
+      "explanation": "port: is a valid Shodan filter that allows you to search for devices with specific open ports."
+    },
+    {
+      "id": 3,
+      "question": "What does the Shodan filter 'country:' do?",
+      "options": [
+        "Filters results by the country where the server is hosted",
+        "Filters results by the country where Shodan is available",
+        "Filters results by the country code in the domain name",
+        "Filters results by the country mentioned in the content"
+      ],
+      "correct_answer": "Filters results by the country where the server is hosted",
+      "explanation": "The country: filter in Shodan allows you to search for devices located in a specific country using the two-letter country code."
+    },
+    {
+      "id": 4,
+      "question": "Which Shodan filter would you use to find devices running a specific operating system?",
+      "options": [
+        "system:",
+        "os:",
+        "platform:",
+        "device:"
+      ],
+      "correct_answer": "os:",
+      "explanation": "The os: filter in Shodan allows you to search for devices running a specific operating system."
+    },
+    {
+      "id": 5,
+      "question": "What is the purpose of the 'before:' filter in Shodan?",
+      "options": [
+        "To find results indexed before a specific date",
+        "To find devices created before a specific date",
+        "To find websites published before a specific date",
+        "To find vulnerabilities discovered before a specific date"
+      ],
+      "correct_answer": "To find results indexed before a specific date",
+      "explanation": "The before: filter in Shodan allows you to search for results that were indexed before a specific date."
+    },
+    {
+      "id": 6,
+      "question": "Which of the following is NOT a feature of Shodan?",
+      "options": [
+        "Searching for internet-connected devices",
+        "Monitoring network vulnerabilities",
+        "Patching security vulnerabilities automatically",
+        "Finding open ports on servers"
+      ],
+      "correct_answer": "Patching security vulnerabilities automatically",
+      "explanation": "Shodan is a search engine for finding devices and monitoring vulnerabilities, but it does not automatically patch security vulnerabilities."
+    },
+    {
+      "id": 7,
+      "question": "What does the Shodan filter 'net:' allow you to search for?",
+      "options": [
+        "Network equipment manufacturers",
+        "Network protocols",
+        "IP addresses in a specific range or CIDR notation",
+        "Network security levels"
+      ],
+      "correct_answer": "IP addresses in a specific range or CIDR notation",
+      "explanation": "The net: filter in Shodan allows you to search for devices in a specific IP range using CIDR notation."
+    },
+    {
+      "id": 8,
+      "question": "Which of the following search queries would find webcams in Japan?",
+      "options": [
+        "webcam country:jp",
+        "camera location:japan",
+        "device:webcam region:japan",
+        "type:webcam japan"
+      ],
+      "correct_answer": "webcam country:jp",
+      "explanation": "The query 'webcam country:jp' combines a search for webcams with the country filter for Japan (jp)."
+    },
+    {
+      "id": 9,
+      "question": "What is Shodan Monitor used for?",
+      "options": [
+        "Monitoring website traffic",
+        "Tracking social media mentions",
+        "Monitoring your network for vulnerabilities",
+        "Monitoring server uptime"
+      ],
+      "correct_answer": "Monitoring your network for vulnerabilities",
+      "explanation": "Shodan Monitor is a service that continuously monitors your network and alerts you when new vulnerabilities or devices are found."
+    },
+    {
+      "id": 10,
+      "question": "Which of the following is a legitimate use case for Shodan?",
+      "options": [
+        "Hacking into vulnerable systems without permission",
+        "Security research and vulnerability assessment",
+        "Stealing data from exposed databases",
+        "Launching DDoS attacks on open ports"
+      ],
+      "correct_answer": "Security research and vulnerability assessment",
+      "explanation": "Legitimate uses of Shodan include security research, vulnerability assessment, and monitoring your own network for security issues."
+    }
+  ]
+}

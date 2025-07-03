@@ -1,0 +1,124 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is Google Dorking?",
+      "options": [
+        "A hacking technique that exploits Google's security vulnerabilities",
+        "Advanced search techniques using Google's search operators",
+        "A method to improve website SEO rankings",
+        "Google's internal search algorithm"
+      ],
+      "correct_answer": "Advanced search techniques using Google's search operators",
+      "explanation": "Google Dorking refers to using advanced search operators in Google to find specific information that might not be easily accessible through simple searches."
+    },
+    {
+      "id": 2,
+      "question": "Which operator is used to search for specific file types in Google?",
+      "options": [
+        "type:",
+        "filetype:",
+        "ext:",
+        "file:"
+      ],
+      "correct_answer": "filetype:",
+      "explanation": "The filetype: operator allows you to search for specific file types, e.g., filetype:pdf will return only PDF files."
+    },
+    {
+      "id": 3,
+      "question": "What does the 'site:' operator do in Google searches?",
+      "options": [
+        "Searches for websites similar to the specified domain",
+        "Restricts results to a specific website or domain",
+        "Finds sites that link to the specified domain",
+        "Shows the site ranking information"
+      ],
+      "correct_answer": "Restricts results to a specific website or domain",
+      "explanation": "The site: operator restricts search results to a specific website or domain, e.g., site:example.com will only show results from example.com."
+    },
+    {
+      "id": 4,
+      "question": "Which Google dork might be used to find exposed webcams?",
+      "options": [
+        "intitle:\"webcam\" inurl:\"view/index.shtml\"",
+        "filetype:jpg \"webcam\"",
+        "site:webcam.com",
+        "link:webcam"
+      ],
+      "correct_answer": "intitle:\"webcam\" inurl:\"view/index.shtml\"",
+      "explanation": "This dork searches for pages with 'webcam' in the title and 'view/index.shtml' in the URL, which is a common pattern for publicly accessible webcam interfaces."
+    },
+    {
+      "id": 5,
+      "question": "What does the 'intext:' operator search for?",
+      "options": [
+        "Text in the page title",
+        "Text in the page URL",
+        "Text in the body of the page",
+        "Text in the meta description"
+      ],
+      "correct_answer": "Text in the body of the page",
+      "explanation": "The intext: operator searches for specific text in the body content of web pages."
+    },
+    {
+      "id": 6,
+      "question": "Which operator would you use to find pages that have specific words in their title?",
+      "options": [
+        "title:",
+        "intitle:",
+        "allintitle:",
+        "header:"
+      ],
+      "correct_answer": "intitle:",
+      "explanation": "The intitle: operator searches for pages that contain specific words in their title. allintitle: is also valid but searches for all terms in the title."
+    },
+    {
+      "id": 7,
+      "question": "What is the purpose of using 'inurl:' in Google searches?",
+      "options": [
+        "To find pages with specific words in their URL",
+        "To exclude URLs containing certain words",
+        "To find pages linking to a specific URL",
+        "To search within a specific URL path"
+      ],
+      "correct_answer": "To find pages with specific words in their URL",
+      "explanation": "The inurl: operator searches for pages that have specific words in their URL."
+    },
+    {
+      "id": 8,
+      "question": "Which Google dork might be used to find exposed database files?",
+      "options": [
+        "site:database.com",
+        "filetype:db password",
+        "intitle:\"Index of\" filetype:sql",
+        "intext:database"
+      ],
+      "correct_answer": "intitle:\"Index of\" filetype:sql",
+      "explanation": "This dork searches for directory listings (Index of) that contain SQL files, which might indicate exposed database backups or dumps."
+    },
+    {
+      "id": 9,
+      "question": "What does the '-' (minus) operator do in Google searches?",
+      "options": [
+        "Subtracts numbers in the search query",
+        "Excludes results containing specific terms",
+        "Reduces the importance of a search term",
+        "Searches for hyphenated words only"
+      ],
+      "correct_answer": "Excludes results containing specific terms",
+      "explanation": "The minus (-) operator excludes results that contain the specified term, e.g., 'security -physical' will show results about security but exclude those about physical security."
+    },
+    {
+      "id": 10,
+      "question": "Which of the following is an ethical use of Google Dorking?",
+      "options": [
+        "Finding and exploiting vulnerabilities in random websites",
+        "Searching for exposed personal information to collect",
+        "Conducting security assessments on your own systems",
+        "Bypassing login pages of websites"
+      ],
+      "correct_answer": "Conducting security assessments on your own systems",
+      "explanation": "Ethical uses of Google Dorking include security assessments on systems you own or have permission to test, to identify potential information leaks or vulnerabilities."
+    }
+  ]
+}
